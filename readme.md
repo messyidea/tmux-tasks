@@ -8,10 +8,15 @@ how to use it？
 ```shell
 # create tmux_task dir
 mkdir /etc/tmux_task
+
 # create tasks dir
 mkdir /etc/tmux_task/tasks
+
 # copy this script to /etc/tmux_task
 cp [this script] /etc/tmux_task/
+
+# run a new task
+bash add_task.sh [taskname] [command]
 ```
 
 之后只需要把你的脚本全部扔在 `/etc/tmux_task/tasks` 这个文件夹就可以了
